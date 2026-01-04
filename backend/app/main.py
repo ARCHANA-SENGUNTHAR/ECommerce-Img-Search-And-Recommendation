@@ -4,7 +4,7 @@ from fastapi.staticfiles import StaticFiles
 from PIL import Image
 from .model_utils import retrieve_similar_images, IMAGES_DIR
 
-# 1️⃣ Create FastAPI app
+# Create FastAPI app
 app = FastAPI(title="Fashion Image Search API")
 
 # 2️⃣ Allow all CORS (for frontend)
