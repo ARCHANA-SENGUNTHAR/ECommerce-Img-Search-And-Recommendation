@@ -199,6 +199,14 @@ typings/
 .nuxt
 dist
 
+# Backend large files
+/backend/data/*.npy
+/backend/data/*.index
+/backend/data/filtered_dataset.zip
+/backend/data/images/
+/backend/models/*.pth
+/backend/models/*.pt
+
 # Gatsby
 .cache/
 
