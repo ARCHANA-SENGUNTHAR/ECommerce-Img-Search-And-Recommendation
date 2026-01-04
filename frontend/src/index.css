@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 15%;
+
+    --primary: 220 80% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 15% 96%;
+    --secondary-foreground: 220 15% 25%;
+
+    --muted: 220 15% 96%;
+    --muted-foreground: 220 10% 50%;
+
+    --accent: 220 15% 94%;
+    --accent-foreground: 220 15% 20%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 90%;
+    --input: 220 15% 90%;
+    --ring: 220 80% 55%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens for visual search */
+    --surface: 220 20% 98%;
+    --surface-hover: 220 15% 95%;
+    --shadow-subtle: 220 20% 80%;
+    --shadow-medium: 220 20% 70%;
+  }
+
+  .dark {
+    --background: 220 20% 8%;
+    --foreground: 220 10% 95%;
+
+    --card: 220 20% 12%;
+    --card-foreground: 220 10% 95%;
+
+    --popover: 220 20% 12%;
+    --popover-foreground: 220 10% 95%;
+
+    --primary: 220 80% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 220 10% 90%;
+
+    --muted: 220 20% 18%;
+    --muted-foreground: 220 10% 60%;
+
+    --accent: 220 20% 20%;
+    --accent-foreground: 220 10% 95%;
+
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 220 80% 60%;
+
+    --surface: 220 20% 10%;
+    --surface-hover: 220 20% 15%;
+    --shadow-subtle: 220 20% 5%;
+    --shadow-medium: 220 20% 3%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .transition-smooth {
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .card-hover {
+    @apply transition-smooth hover:shadow-lg hover:-translate-y-1;
+  }
+  
+  .image-zoom {
+    @apply transition-transform duration-300 ease-out hover:scale-105;
+  }
+}
