@@ -289,3 +289,17 @@ backend/models/*.pth
 backend/data/*.index
 backend/data/*.npy
 # <<< End custom ignores
+
+# Node.js dependencies
+node_modules/
+
+# TypeScript configuration files
+tsconfig.json
+tsconfig.*.json
+
+# Optional: ignore build outputs
+dist/
+build/
+
+# Optional: ignore TypeScript cache
+*.tsbuildinfo
