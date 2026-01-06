@@ -102,4 +102,4 @@ The project uses the [Fashion Product Images Dataset](https://www.kaggle.com/dat
 
 ## Report
 
-[Intel Unnati Prophecy Report](Intel-Unnati-Prophecy-Report.pdf)
+[Intel Unnati PS6 Project Report](INTEL-UNNATI-PS6-PROJECT_REPORT.pdf)
