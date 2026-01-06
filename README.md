@@ -99,3 +99,7 @@ The project uses the [Fashion Product Images Dataset](https://www.kaggle.com/dat
 ## Demo
 
 [Project Demo](https://youtu.be/caUxX5zTihE)
+
+## Report
+
+[Intel Unnati Prophecy Report](Intel-Unnati-Prophecy-Report.pdf)
